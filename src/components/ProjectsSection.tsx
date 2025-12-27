@@ -1,49 +1,48 @@
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, Brain, FileText, Sparkles, Shield } from "lucide-react";
+import { Github, Brain, FileText, Sparkles, Shield, BarChart3, Bot } from "lucide-react";
 
 const projects = [
   {
     title: "HR Intelligence Engine",
-    subtitle: "AI-Powered Resume Screening Platform",
+    subtitle: "AI-Powered, Explainable Resume Screening Platform",
     description:
-      "An explainable AI system that revolutionizes resume screening with transparent, bias-aware evaluation. Built to help recruiters make faster, fairer hiring decisions.",
+      "Hybrid rule-based + LLM architecture with explainable scoring (0–100), bias-aware hiring, PDF parsing, FastAPI APIs, Swagger UI, and CLI interface.",
     features: [
       { icon: FileText, text: "PDF Parsing & Text Extraction" },
-      { icon: Brain, text: "LLM-Powered Analysis" },
-      { icon: Sparkles, text: "Explainable Scoring System" },
+      { icon: Brain, text: "Hybrid Rule-based + LLM Architecture" },
+      { icon: Sparkles, text: "Explainable Scoring (0-100)" },
       { icon: Shield, text: "Bias-Aware Evaluation" },
     ],
-    tech: ["Python", "FastAPI", "LangChain", "OpenAI", "CLI"],
-    github: "#",
-    demo: "#",
+    tech: ["Python", "FastAPI", "LLMs", "Swagger UI", "CLI"],
+    github: "https://github.com/Harsh-g-30/hr-intelligence-engine",
     featured: true,
   },
   {
-    title: "Data Analytics Dashboard",
-    subtitle: "Real-time Business Intelligence",
+    title: "Agentic AI BI Analyst",
+    subtitle: "Multi-Agent AI System for Autonomous Analysis",
     description:
-      "Interactive dashboard for visualizing key business metrics with real-time data updates and customizable views.",
+      "Multi-agent AI system for autonomous data analysis, anomaly detection, insights generation, and recommendations.",
     features: [
-      { icon: Brain, text: "Real-time Data Processing" },
-      { icon: Sparkles, text: "Interactive Visualizations" },
+      { icon: Bot, text: "Multi-Agent Architecture" },
+      { icon: Brain, text: "Autonomous Data Analysis" },
+      { icon: Sparkles, text: "Anomaly Detection" },
+      { icon: BarChart3, text: "Insights & Recommendations" },
     ],
-    tech: ["Python", "Pandas", "Plotly", "SQL"],
-    github: "#",
-    demo: "#",
-    featured: false,
+    tech: ["Python", "AI Agents", "GenAI", "Data Analysis"],
+    github: "https://github.com/Harsh-g-30/agentic-ai-bi-analyst",
+    featured: true,
   },
   {
-    title: "Automation Framework",
-    subtitle: "Enterprise Workflow Automation",
+    title: "Hospitality Revenue Insights Dashboard",
+    subtitle: "Power BI Dashboard with Advanced Analytics",
     description:
-      "Scalable automation framework for repetitive tasks, reducing manual effort and improving accuracy across workflows.",
+      "Power BI dashboard with Star Schema, ETL in Power Query, and DAX KPIs including RevPAR, ADR, and Occupancy metrics.",
     features: [
-      { icon: Brain, text: "Task Scheduling" },
-      { icon: Shield, text: "Error Handling & Logging" },
+      { icon: BarChart3, text: "Star Schema Design" },
+      { icon: Sparkles, text: "DAX KPIs (RevPAR, ADR, Occupancy)" },
     ],
-    tech: ["Python", "Selenium", "REST APIs", "Azure"],
-    github: "#",
-    demo: "#",
+    tech: ["Power BI", "Power Query", "DAX", "ETL"],
+    github: "https://github.com/Harsh-g-30/Hospitality-Domain-Data-Analysis",
     featured: false,
   },
 ];
@@ -64,7 +63,7 @@ export function ProjectsSection() {
           </div>
           
           <div className="space-y-8">
-            {/* Featured Project */}
+            {/* Featured Projects */}
             {projects.filter(p => p.featured).map((project, index) => (
               <div
                 key={index}
@@ -103,20 +102,12 @@ export function ProjectsSection() {
                     ))}
                   </div>
                   
-                  <div className="flex gap-4">
-                    <Button variant="hero" asChild>
-                      <a href={project.demo}>
-                        <ExternalLink className="h-4 w-4" />
-                        Live Demo
-                      </a>
-                    </Button>
-                    <Button variant="heroOutline" asChild>
-                      <a href={project.github}>
-                        <Github className="h-4 w-4" />
-                        View Code
-                      </a>
-                    </Button>
-                  </div>
+                  <Button variant="hero" asChild>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="h-4 w-4" />
+                      View on GitHub
+                    </a>
+                  </Button>
                 </div>
               </div>
             ))}
@@ -143,20 +134,12 @@ export function ProjectsSection() {
                     ))}
                   </div>
                   
-                  <div className="flex gap-3">
-                    <Button variant="outline" size="sm" asChild>
-                      <a href={project.github}>
-                        <Github className="h-4 w-4" />
-                        Code
-                      </a>
-                    </Button>
-                    <Button variant="outline" size="sm" asChild>
-                      <a href={project.demo}>
-                        <ExternalLink className="h-4 w-4" />
-                        Demo
-                      </a>
-                    </Button>
-                  </div>
+                  <Button variant="outline" size="sm" asChild>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="h-4 w-4" />
+                      View Code
+                    </a>
+                  </Button>
                 </div>
               ))}
             </div>

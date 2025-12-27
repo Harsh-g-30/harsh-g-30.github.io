@@ -29,15 +29,17 @@ export function HeroSection() {
             className="text-xl md:text-2xl text-muted-foreground mb-4 animate-fade-up"
             style={{ animationDelay: "0.3s", opacity: 0 }}
           >
-            System Engineer | Data & AI Enthusiast
+            Software Engineer-AI | Data & GenAI/Agentic AI Enthusiast
           </p>
           
           <p 
-            className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up"
+            className="text-lg text-muted-foreground max-w-3xl mx-auto mb-10 animate-fade-up leading-relaxed"
             style={{ animationDelay: "0.4s", opacity: 0 }}
           >
-            Building intelligent solutions at TCS. Passionate about leveraging Python, 
-            AI/ML, and data analytics to solve complex business problems.
+            Software Engineer with expertise in DSA, system design, and cloud computing, 
+            along with hands-on experience in AI/ML, LLMs, and Generative AI applications. 
+            I am skilled at building scalable backend systems, automation pipelines, and 
+            intelligent solutions that improve efficiency and deliver measurable business impact.
           </p>
           
           <div 
@@ -57,7 +59,7 @@ export function HeroSection() {
             style={{ animationDelay: "0.6s", opacity: 0 }}
           >
             <a
-              href="https://github.com/harshgaur"
+              href="https://github.com/Harsh-g-30"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-200"
@@ -65,7 +67,7 @@ export function HeroSection() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/harshgaur"
+              href="https://www.linkedin.com/in/harsh-g30/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-200"
@@ -73,7 +75,7 @@ export function HeroSection() {
               <Linkedin className="h-6 w-6" />
             </a>
             <a
-              href="mailto:harsh.gaur@example.com"
+              href="mailto:harshg30.gaur@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors duration-200"
             >
               <Mail className="h-6 w-6" />

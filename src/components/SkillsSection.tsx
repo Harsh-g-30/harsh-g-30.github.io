@@ -1,39 +1,20 @@
+import { Code, Wrench, Cloud } from "lucide-react";
+
 const skillCategories = [
   {
     title: "Languages",
-    skills: [
-      { name: "Python", level: 90 },
-      { name: "Java", level: 75 },
-      { name: "SQL", level: 85 },
-      { name: "JavaScript", level: 70 },
-    ],
+    icon: Code,
+    skills: ["Python", "Java", "C++", "SQL", "HTML", "CSS"],
   },
   {
-    title: "Data & AI",
-    skills: [
-      { name: "Data Analytics", level: 85 },
-      { name: "Machine Learning", level: 75 },
-      { name: "LLMs & AI", level: 80 },
-      { name: "Pandas/NumPy", level: 85 },
-    ],
+    title: "Tools & Technologies",
+    icon: Wrench,
+    skills: ["AI/ML", "Power BI", "Airflow", "SQL Server Studio", "MS Excel", "Hugging Face", "Pandas", "LLMs"],
   },
   {
-    title: "Frameworks & Tools",
-    skills: [
-      { name: "FastAPI", level: 80 },
-      { name: "REST APIs", level: 85 },
-      { name: "Git", level: 85 },
-      { name: "Docker", level: 70 },
-    ],
-  },
-  {
-    title: "Cloud & DevOps",
-    skills: [
-      { name: "Azure", level: 75 },
-      { name: "CI/CD", level: 70 },
-      { name: "Linux", level: 75 },
-      { name: "Automation", level: 85 },
-    ],
+    title: "Platforms",
+    icon: Cloud,
+    skills: ["AWS", "Linux/Unix", "Git", "Azure", "Kaggle", "GCP"],
   },
 ];
 
@@ -52,30 +33,26 @@ export function SkillsSection() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {skillCategories.map((category, index) => (
               <div
                 key={index}
                 className="bg-card border border-border rounded-2xl p-6 hover-lift"
               >
-                <h3 className="text-xl font-bold mb-6 text-gradient">{category.title}</h3>
-                <div className="space-y-5">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="p-3 rounded-lg bg-primary/10">
+                    <category.icon className="h-6 w-6 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gradient">{category.title}</h3>
+                </div>
+                <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill, i) => (
-                    <div key={i}>
-                      <div className="flex justify-between mb-2">
-                        <span className="font-medium">{skill.name}</span>
-                        <span className="text-muted-foreground text-sm">{skill.level}%</span>
-                      </div>
-                      <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                        <div
-                          className="h-full bg-gradient-primary rounded-full transition-all duration-1000 ease-out"
-                          style={{ 
-                            width: `${skill.level}%`,
-                            animation: `slideIn 1s ease-out ${i * 0.1}s both`
-                          }}
-                        />
-                      </div>
-                    </div>
+                    <span
+                      key={i}
+                      className="px-3 py-2 bg-secondary text-secondary-foreground text-sm rounded-lg font-medium hover:bg-primary/10 hover:text-primary transition-colors cursor-default"
+                    >
+                      {skill}
+                    </span>
                   ))}
                 </div>
               </div>

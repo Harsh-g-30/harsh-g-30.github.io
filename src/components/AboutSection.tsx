@@ -15,18 +15,19 @@ export function AboutSection() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a <span className="text-foreground font-medium">System Engineer at TCS</span> with 
+                I'm a <span className="text-foreground font-medium">Software Engineer-AI at TCS</span> with 
                 a strong foundation in software development and a growing expertise in 
-                Data Analytics and Artificial Intelligence.
+                Data Analytics, AI/ML, and Generative AI applications.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 My journey in tech is driven by curiosity and a passion for solving 
-                complex problems. I specialize in building scalable, intelligent solutions 
-                that bridge the gap between data and actionable insights.
+                complex problems. I specialize in building scalable backend systems, 
+                automation pipelines, and intelligent solutions that bridge the gap 
+                between data and actionable insights.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 When I'm not coding, you'll find me exploring the latest in AI research, 
-                contributing to open-source projects, or mentoring aspiring developers.
+                working on agentic AI frameworks, or practicing beatbox.
               </p>
             </div>
             
@@ -38,8 +39,8 @@ export function AboutSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Education</h3>
-                    <p className="text-muted-foreground">VIT Bhopal University</p>
-                    <p className="text-sm text-primary font-medium">CGPA: 8.6/10</p>
+                    <p className="text-muted-foreground">Vellore Institute of Technology (VIT)</p>
+                    <p className="text-sm text-primary font-medium">CGPA: 8.7/10</p>
                   </div>
                 </div>
               </div>
@@ -51,7 +52,7 @@ export function AboutSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Focus Areas</h3>
-                    <p className="text-muted-foreground">AI/ML, Data Analytics, Full-Stack Development</p>
+                    <p className="text-muted-foreground">AI/ML, Data/Business Analytics, Development, Cloud</p>
                   </div>
                 </div>
               </div>
@@ -63,7 +64,7 @@ export function AboutSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Interests</h3>
-                    <p className="text-muted-foreground">Problem Solving, Open Source, Tech Innovation</p>
+                    <p className="text-muted-foreground">Problem Solving, Beatbox</p>
                   </div>
                 </div>
               </div>

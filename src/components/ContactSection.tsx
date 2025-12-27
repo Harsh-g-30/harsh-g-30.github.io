@@ -57,7 +57,7 @@ export function ContactSection() {
               
               <div className="space-y-4">
                 <a
-                  href="mailto:harsh.gaur@example.com"
+                  href="mailto:harshg30.gaur@gmail.com"
                   className="flex items-center gap-4 p-4 bg-card border border-border rounded-xl hover-lift group"
                 >
                   <div className="p-3 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
@@ -65,12 +65,12 @@ export function ContactSection() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium">harsh.gaur@example.com</p>
+                    <p className="font-medium">harshg30.gaur@gmail.com</p>
                   </div>
                 </a>
                 
                 <a
-                  href="https://linkedin.com/in/harshgaur"
+                  href="https://www.linkedin.com/in/harsh-g30/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-card border border-border rounded-xl hover-lift group"
@@ -80,12 +80,12 @@ export function ContactSection() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">LinkedIn</p>
-                    <p className="font-medium">linkedin.com/in/harshgaur</p>
+                    <p className="font-medium">linkedin.com/in/harsh-g30</p>
                   </div>
                 </a>
                 
                 <a
-                  href="https://github.com/harshgaur"
+                  href="https://github.com/Harsh-g-30"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-card border border-border rounded-xl hover-lift group"
@@ -95,7 +95,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">GitHub</p>
-                    <p className="font-medium">github.com/harshgaur</p>
+                    <p className="font-medium">github.com/Harsh-g-30</p>
                   </div>
                 </a>
                 
@@ -105,7 +105,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Location</p>
-                    <p className="font-medium">India</p>
+                    <p className="font-medium">Gorakhpur, Uttar Pradesh, India</p>
                   </div>
                 </div>
               </div>
