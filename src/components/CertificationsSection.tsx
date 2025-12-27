@@ -1,33 +1,25 @@
-import { Award, ExternalLink } from "lucide-react";
+import { Award } from "lucide-react";
 
 const certifications = [
   {
-    title: "Microsoft Learn Student Ambassador",
-    issuer: "Microsoft",
-    date: "2024",
-    description: "Completed comprehensive training on Microsoft technologies and leadership",
-    link: "#",
+    title: "Deloitte Australia – Technology Job Simulation",
+    issuer: "Deloitte",
   },
   {
-    title: "Azure Fundamentals",
-    issuer: "Microsoft",
-    date: "2024",
-    description: "Cloud computing concepts, Azure services, and deployment models",
-    link: "#",
+    title: "GenAI Job Simulation",
+    issuer: "BCG",
   },
   {
-    title: "AI & Machine Learning Fundamentals",
-    issuer: "Various",
-    date: "2024",
-    description: "Core concepts in artificial intelligence and machine learning applications",
-    link: "#",
+    title: "Google Cloud Certified Generative AI Leader",
+    issuer: "Google Cloud",
   },
   {
-    title: "Python for Data Science",
-    issuer: "Online Platform",
-    date: "2023",
-    description: "Advanced Python programming for data analysis and visualization",
-    link: "#",
+    title: "McKinsey.org Forward Program",
+    issuer: "McKinsey",
+  },
+  {
+    title: "SQL (Intermediate)",
+    issuer: "HackerRank",
   },
 ];
 
@@ -46,7 +38,7 @@ export function CertificationsSection() {
             </p>
           </div>
           
-          <div className="grid sm:grid-cols-2 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {certifications.map((cert, index) => (
               <div
                 key={index}
@@ -57,19 +49,8 @@ export function CertificationsSection() {
                     <Award className="h-6 w-6 text-primary" />
                   </div>
                   <div className="flex-1">
-                    <div className="flex items-start justify-between gap-2">
-                      <h3 className="font-semibold text-lg leading-tight">{cert.title}</h3>
-                      <a
-                        href={cert.link}
-                        className="text-muted-foreground hover:text-primary transition-colors opacity-0 group-hover:opacity-100"
-                      >
-                        <ExternalLink className="h-4 w-4" />
-                      </a>
-                    </div>
-                    <p className="text-primary text-sm font-medium mt-1">
-                      {cert.issuer} • {cert.date}
-                    </p>
-                    <p className="text-muted-foreground text-sm mt-2">{cert.description}</p>
+                    <h3 className="font-semibold text-lg leading-tight mb-2">{cert.title}</h3>
+                    <p className="text-primary text-sm font-medium">{cert.issuer}</p>
                   </div>
                 </div>
               </div>

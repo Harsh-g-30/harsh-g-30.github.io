@@ -2,17 +2,52 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
-    title: "System Engineer",
+    title: "Software Engineer-AI",
     company: "Tata Consultancy Services (TCS)",
     location: "India",
     period: "Nov 2024 – Present",
     current: true,
     responsibilities: [
-      "Developing and maintaining Python-based data processing pipelines for enterprise clients",
-      "Building analytics dashboards and automated reporting solutions",
-      "Implementing data quality checks and validation frameworks",
-      "Collaborating with cross-functional teams to deliver data-driven solutions",
-      "Optimizing existing workflows for improved performance and reliability",
+      "Developing an Agentic AI framework to automate data harmonization using custom AI agents and GenAI models, targeting 90% reduction in manual effort",
+      "Designed Python-based harmonization systems for weekly multi-retailer data integration",
+      "Built automated pipelines using Apache Airflow, MySQL, PuTTY, and WinSCP",
+      "Collaborating with R&D and data engineering teams for production deployment",
+      "Using Advanced Excel and SQL for validation, anomaly detection, and executive dashboards",
+    ],
+  },
+  {
+    title: "Research & Development Intern",
+    company: "Rankplus",
+    location: "Jaipur, India (Hybrid)",
+    period: "May 2024 – Jun 2024",
+    current: false,
+    responsibilities: [
+      "Conducted AR/VR research for EdTech learning enhancement",
+      "Performed learner behavior and engagement analysis",
+      "Generated insights leading to 25% improvement in pilot interaction",
+    ],
+  },
+  {
+    title: "GenAI Developer Intern",
+    company: "Ailaysa",
+    location: "Remote",
+    period: "Mar 2024 – Apr 2024",
+    current: false,
+    responsibilities: [
+      "Developed multilingual GenAI content and translation solutions",
+      "Applied prompt engineering and ethical AI practices",
+      "Recognized as top performer",
+    ],
+  },
+  {
+    title: "MERN Developer Intern",
+    company: "ETHNUS",
+    location: "Remote",
+    period: "May 2023 – Jul 2023",
+    current: false,
+    responsibilities: [
+      "Worked on MERN stack development",
+      "Collaborated on full-stack project development",
     ],
   },
 ];
