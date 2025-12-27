@@ -1,41 +1,57 @@
-This repository contains the source code for my personal portfolio website, built to showcase my work, skills, projects, and professional experience in Software Engineering, AI, and Data.
+# 📌 Overview
 
-The website follows a minimal, modern, and recruiter-friendly design, focusing on clarity, performance, and real-world impact. It serves as a central place for recruiters and collaborators to explore my background and get in touch.
+This repository contains the source code for my personal **portfolio website**, built to showcase my professional experience, projects, skills, and certifications.
+
+The website follows a minimalist and recruiter-friendly design, enhanced with subtle animations to improve engagement while maintaining clarity and performance. It serves as a single destination for recruiters, collaborators, and peers to explore my work and get in touch.
 
 🔗 Live Website: https://harsh-g-30.github.io/
 
-✨ Features
+# ✨ Key Features
 
-Clean, minimal, and responsive UI
+🎨 Minimal, modern, and responsive UI
 
-Subtle animations and smooth transitions
+🧭 Smooth navigation with subtle animations
 
-Sections for experience, projects, skills, and certifications
+🧑‍💻 Dedicated sections for experience, projects, and skills
 
-Working contact form (email integration)
+📜 Certification showcase with verification links
 
-Fully static and optimized for fast load times
+📬 Working contact form with email delivery
 
-Automated deployment using GitHub Actions
+⚡ Fully static and optimized for fast load times
 
-🛠️ Tech Stack
+🔁 Automated CI/CD deployment via GitHub Actions
 
-Vite – fast frontend build tooling
+# 🧠 Design Philosophy
+Minimal & Professional
 
-React – component-based UI development
+Clean typography and structured layout
 
-TypeScript – type safety and maintainability
+No visual clutter
 
-Tailwind CSS – utility-first styling
+Recruiter-friendly presentation
 
-shadcn/ui – modern, accessible UI components
+Performance First
 
-🚀 Development & Deployment
+Static site architecture
 
-Supports local development with hot reload
+Lightweight assets
 
-CI/CD pipeline set up using GitHub Actions
+Fast initial page load
 
-Automatically builds and deploys to GitHub Pages
+Real-World Focus
 
-Hosted as a static site (lightweight and cost-effective)
+Impact-driven content
+
+Practical engineering experience over buzzwords
+
+# 🛠️ Tech Stack
+| Layer | Technology |
+|------|-----------|
+| Frontend	React | TypeScript |
+|Styling | Tailwind CSS, shadcn/ui |
+| Build Tool | Vite |
+|Animations	CSS | lightweight motion |
+|Email Service	| EmailJS |
+| Hosting |	GitHub Pages |
+| CI/CD	| GitHub Actions |
