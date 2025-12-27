@@ -1,73 +1,41 @@
-# Welcome to your Lovable project
+This repository contains the source code for my personal portfolio website, built to showcase my work, skills, projects, and professional experience in Software Engineering, AI, and Data.
 
-## Project info
+The website follows a minimal, modern, and recruiter-friendly design, focusing on clarity, performance, and real-world impact. It serves as a central place for recruiters and collaborators to explore my background and get in touch.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔗 Live Website: https://harsh-g-30.github.io/
 
-## How can I edit this code?
+✨ Features
 
-There are several ways of editing your application.
+Clean, minimal, and responsive UI
 
-**Use Lovable**
+Subtle animations and smooth transitions
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Sections for experience, projects, skills, and certifications
 
-Changes made via Lovable will be committed automatically to this repo.
+Working contact form (email integration)
 
-**Use your preferred IDE**
+Fully static and optimized for fast load times
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Automated deployment using GitHub Actions
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🛠️ Tech Stack
 
-Follow these steps:
+Vite – fast frontend build tooling
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+React – component-based UI development
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+TypeScript – type safety and maintainability
 
-# Step 3: Install the necessary dependencies.
-npm i
+Tailwind CSS – utility-first styling
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+shadcn/ui – modern, accessible UI components
 
-**Edit a file directly in GitHub**
+🚀 Development & Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Supports local development with hot reload
 
-**Use GitHub Codespaces**
+CI/CD pipeline set up using GitHub Actions
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Automatically builds and deploys to GitHub Pages
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Hosted as a static site (lightweight and cost-effective)
